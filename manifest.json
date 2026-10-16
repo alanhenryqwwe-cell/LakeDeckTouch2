@@ -1,0 +1,9 @@
+{
+  "Name": "Lake Deck Touch",
+  "Author": "Alan",
+  "Version": "0.1.0",
+  "Description": "Touch-friendly wooden deck construction prototype.",
+  "UniqueID": "Alan.LakeDeckTouch",
+  "EntryDll": "LakeDeckTouch.dll",
+  "MinimumApiVersion": "4.3.2"
+}

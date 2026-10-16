@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>LakeDeckTouch</AssemblyName>
+    <RootNamespace>LakeDeckTouch</RootNamespace>
+  </PropertyGroup>
+  <!-- Configure HintPath references to the exact Stardew Valley and SMAPI assemblies
+       for your build environment before compiling. Android compatibility is unverified. -->
+  <ItemGroup>
+    <Reference Include="StardewModdingAPI">
+      <HintPath>PATH_TO_SMAPI/StardewModdingAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Stardew Valley">
+      <HintPath>PATH_TO_GAME/Stardew Valley.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>PATH_TO_GAME/MonoGame.Framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
