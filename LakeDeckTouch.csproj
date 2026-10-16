@@ -6,17 +6,10 @@
     <AssemblyName>LakeDeckTouch</AssemblyName>
     <RootNamespace>LakeDeckTouch</RootNamespace>
   </PropertyGroup>
-  <!-- Configure HintPath references to the exact Stardew Valley and SMAPI assemblies
-       for your build environment before compiling. Android compatibility is unverified. -->
+
+  <!-- O pacote configura referências para o jogo em um ambiente de compilação adequado.
+       O projeto ainda precisa ser compilado e testado com a versão exata do jogo/SMAPI. -->
   <ItemGroup>
-    <Reference Include="StardewModdingAPI">
-      <HintPath>PATH_TO_SMAPI/StardewModdingAPI.dll</HintPath>
-    </Reference>
-    <Reference Include="Stardew Valley">
-      <HintPath>PATH_TO_GAME/Stardew Valley.dll</HintPath>
-    </Reference>
-    <Reference Include="MonoGame.Framework">
-      <HintPath>PATH_TO_GAME/MonoGame.Framework.dll</HintPath>
-    </Reference>
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.1.1" />
   </ItemGroup>
 </Project>
